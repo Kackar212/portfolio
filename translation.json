@@ -1,4 +1,42 @@
 {
-  "en": {},
-  "pl": {}
+  "en": {
+    "navigation": {
+      "home": {
+        "text": "Home",
+        "href": ""
+      },
+      "projects": {
+        "text": "Projects",
+        "href": "projects"
+      },
+      "tools": {
+        "text": "Technologies",
+        "href": "technologies"
+      },
+      "contact": {
+        "text": "Contact me",
+        "href": "contact"
+      }
+    }
+  },
+  "pl": {
+    "navigation": {
+      "home": {
+        "text": "Strona główna",
+        "href": ""
+      },
+      "projects": {
+        "text": "Projekty",
+        "href": "projekty"
+      },
+      "tools": {
+        "text": "Technologie",
+        "href": "technologie"
+      },
+      "contact": {
+        "text": "Kontakt",
+        "href": "kontakt"
+      }
+    }
+  }
 }
