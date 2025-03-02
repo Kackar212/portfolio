@@ -2,6 +2,7 @@ import { Dispatch, SetStateAction, useCallback } from "react";
 import { Theme } from "@/hooks/use-theme.hook";
 import SunIcon from "@/assets/sun.svg?react";
 import MoonIcon from "@/assets/moon.svg?react";
+import { useTranslation } from "react-i18next";
 
 interface ThemeSwitchProps {
   setTheme: Dispatch<SetStateAction<Theme>>;
@@ -9,6 +10,8 @@ interface ThemeSwitchProps {
 }
 
 export function ThemeSwitch({ setTheme, theme }: ThemeSwitchProps) {
+  const { t } = useTranslation(["theme"]);
+
   const isDarkTheme = theme === "dark";
 
   const onClick = useCallback(() => {
@@ -34,7 +37,7 @@ export function ThemeSwitch({ setTheme, theme }: ThemeSwitchProps) {
         ) : (
           <MoonIcon className="text-primary" />
         )}
-        <span className="sr-only">dark theme: </span>
+        <span className="sr-only">{t("dark theme")}: </span>
       </button>
     </div>
   );
