@@ -123,6 +123,7 @@ body,
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-navigation-background: var(--navigation-background);
+  --breakpoint-xs: 20rem;
 }
 
 @layer base {
