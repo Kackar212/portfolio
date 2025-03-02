@@ -17,6 +17,9 @@
         "text": "Contact me",
         "href": "contact"
       }
+    },
+    "theme": {
+      "dark theme": "dark theme"
     }
   },
   "pl": {
@@ -37,6 +40,9 @@
         "text": "Kontakt",
         "href": "kontakt"
       }
+    },
+    "theme": {
+      "dark theme": "ciemny motyw"
     }
   }
 }
