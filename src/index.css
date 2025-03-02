@@ -38,10 +38,11 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --navigation-background: rgb(75, 75, 75, 0.13);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
+  --background: rgb(21, 19, 18);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.145 0 0);
   --card-foreground: oklch(0.985 0 0);
@@ -73,6 +74,7 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
+  --navigation-background: rgba(75, 75, 75, 0.25);
 }
 
 @theme inline {
@@ -112,6 +114,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-navigation-background: var(--navigation-background);
 }
 
 @layer base {
