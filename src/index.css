@@ -39,6 +39,10 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
   --navigation-background: rgb(75, 75, 75, 0.13);
+  --orange: rgb(244, 108, 56);
+  --gray: rgb(153, 143, 143);
+  --dark-gray: rgb(95, 100, 105);
+  --soft-gray: rgb(182, 180, 189, 0.2);
 }
 
 html,
@@ -83,6 +87,10 @@ body,
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
   --navigation-background: rgba(75, 75, 75, 0.25);
+  --orange: rgb(244, 108, 56);
+  --gray: rgb(153, 143, 143);
+  --dark-gray: rgb(95, 100, 105);
+  --soft-gray: rgb(182, 180, 189, 0.2);
 }
 
 @theme inline {
@@ -123,6 +131,10 @@ body,
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-navigation-background: var(--navigation-background);
+  --color-orange: var(--orange);
+  --color-gray: var(--gray);
+  --color-dark-gray: var(--dark-gray);
+  --color-soft-gray: var(--soft-gray);
   --breakpoint-xs: 20rem;
 }
 

@@ -20,7 +20,13 @@
     },
     "theme": {
       "dark theme": "dark theme"
-    }
+    },
+    "headerCard": {
+      "github": "Go to my github",
+      "mail": "Contact me",
+      "description": "I am just chill guy that would like to find his first job as a front-end developer."
+    },
+    "developer": "developer"
   },
   "pl": {
     "navigation": {
@@ -43,6 +49,12 @@
     },
     "theme": {
       "dark theme": "ciemny motyw"
-    }
+    },
+    "headerCard": {
+      "github": "Przejdź do mojego github-a",
+      "mail": "Napisz do mnie",
+      "description": "Jestem zwykłym gościem, który chciałby znaleźć swoją pierwszą pracę jako front-end deweloper."
+    },
+    "developer": "deweloper"
   }
 }
