@@ -25,7 +25,7 @@ export function ThemeSwitch({ setTheme, theme }: ThemeSwitchProps) {
   }, [setTheme]);
 
   return (
-    <div className="fixed right-4 bottom-4 md:top-4 md:bottom-[unset]">
+    <div className="fixed right-4 bottom-4 md:top-4 md:bottom-[unset] z-50">
       <button
         type="button"
         onClick={onClick}
