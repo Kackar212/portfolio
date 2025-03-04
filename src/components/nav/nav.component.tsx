@@ -33,7 +33,7 @@ export function Nav() {
   const { t } = useTranslation(["navigation"]);
 
   return (
-    <NavigationMenu className="bg-navigation-background text-primary rounded-ss-none rounded-se-none xs:top-4 rounded-md md:rounded-2xl p-1 md:p-1.5 fixed top-0 left-1/2 -translate-x-1/2 w-full">
+    <NavigationMenu className="bg-navigation-background text-primary rounded-ss-none rounded-se-none xs:top-4 rounded-md md:rounded-2xl p-1 md:p-1.5 fixed top-0 left-1/2 -translate-x-1/2 w-full z-50">
       <NavigationMenuList className="gap-0 md:gap-2 flex-wrap w-full justify-start">
         {navItems.map(({ translation, Icon }, index) => (
           <NavigationMenuItem key={index}>
