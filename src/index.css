@@ -86,7 +86,7 @@ body,
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
-  --navigation-background: rgba(75, 75, 75, 0.25);
+  --navigation-background: rgb(43, 40, 40);
   --orange: rgb(244, 108, 56);
   --gray: rgb(153, 143, 143);
   --dark-gray: rgb(95, 100, 105);
