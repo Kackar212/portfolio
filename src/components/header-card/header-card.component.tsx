@@ -7,7 +7,7 @@ export function HeaderCard() {
   const { t } = useTranslation(["headerCard"]);
 
   return (
-    <Card className="items-center bg-white relative w-full md:max-w-72 lg:max-w-80 p-4 md:p-8 rounded-2xl overflow-hidden">
+    <Card className="items-center bg-white relative w-full md:max-w-72 lg:max-w-80 p-4 md:p-8 rounded-2xl overflow-hidden h-fit">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="194"
