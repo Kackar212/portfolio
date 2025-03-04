@@ -31,6 +31,17 @@
       "heading": "About me",
       "firstParagraph": "<0>I am a</0><1>front-end\n<2>developer<2>*</1></1></1><2><0>\n*</0>in the making.</2>",
       "secondParagraph": "I am interested in building <1>accessible</1>, <3>fast</3>, <5>functional</5> and <8>responsive</8> web applications. I specialize in <10>HTML</10>, <12>CSS</12>, <14>Javascript</14>, <16>Typescript</16>, <18>React.js</18>, <20>Next.js</20> and <22>Node.js</22>. While I'm always learning, I think I am already proficient enough with these technologies to begin my professional journey. I am eager to grow further this is why I want to find my first job as a front-end developer."
+    },
+    "experience": {
+      "heading": "Experience",
+      "noExperience": "Yes, its empty but your company can be first one here.",
+      "urlText": "Go to {{name}} company",
+      "year_one": "{{count}} year",
+      "year_other": "{{count}} years",
+      "month_one": "{{count}} month",
+      "month_other": "{{count}} months",
+      "day_one": "{{count}} day",
+      "day_many": "{{count}} days"
     }
   },
   "pl": {
@@ -65,6 +76,20 @@
       "heading": "Kilka słów o mnie",
       "firstParagraph": "<0>Jestem </0><1>front-end\n<2>deweloperem<1>*</1></2></1><2>\n<0>*</0>a raczej chciałbym nim zostać.</2>",
       "secondParagraph": "Interesuję mnie tworzenie <1>dostępnych</1>, <3>szybkich</3>, <5>funkcjonalnych</5> i <8>responsywnych</8> aplikacji internetowych. Technologie z których najczęściej korzystam to <10>HTML</10>, <12>CSS</12>, <14>Javascript</14>, <16>Typescript</16>, <18>React.js</18>, <20>Next.js</20> i <22>Node.js</22>. W końcu zdecydowałem że jestem gotowy by zdobyć swoją pierwszą pracę na tym stanowisku i zacząć swoją karierę w tym zawodzie. Oczywiście wiele jeszcze muszę się nauczyć dlatego chcę dalej rozwijać się już w profesjonalnym śroowisku."
+    },
+    "experience": {
+      "heading": "Doświadczenie\n zawodowe",
+      "noExperience": "Tak, ta sekcja jest pusta, ale twoja firma może pojawić się tutaj jako pierwsza.",
+      "urlText": "Przejdź do strony firmy {{name}}",
+      "year_few": "{{count}} lata",
+      "year_one": "{{count}} rok",
+      "year_many": "{{count}} lat",
+      "month_few": "{{count}} miesiące",
+      "month_one": "{{count}} miesiąc",
+      "month_many": "{{count}} miesięcy",
+      "day_few": "{{count}} dni",
+      "day_one": "{{count}} dzień",
+      "day_many": "{{count}} dni"
     }
   }
 }
