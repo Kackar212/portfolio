@@ -6,7 +6,7 @@ function App() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className={twMerge("size-full bg-background", theme)}>
+    <div className={twMerge("bg-background min-h-full", theme)}>
       <ThemeSwitch setTheme={setTheme} theme={theme} />
     </div>
   );
