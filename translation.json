@@ -1,5 +1,8 @@
 {
   "en": {
+    "translation": {
+      "developer": "developer"
+    },
     "navigation": {
       "home": {
         "text": "Home",
@@ -26,7 +29,6 @@
       "mail": "Contact me",
       "description": "I am just chill guy that would like to find his first job as a front-end developer."
     },
-    "developer": "developer",
     "aboutMe": {
       "heading": "About me",
       "firstParagraph": "<0>I am a</0><1>front-end\n<2>developer<1>*</1></2></1><2><0>\n*</0>in the making.</2>",
@@ -45,6 +47,9 @@
     }
   },
   "pl": {
+    "translation": {
+      "developer": "deweloper"
+    },
     "navigation": {
       "home": {
         "text": "Strona główna",
@@ -71,7 +76,6 @@
       "mail": "Napisz do mnie",
       "description": "Jestem zwykłym gościem, który chciałby znaleźć swoją pierwszą pracę jako front-end deweloper."
     },
-    "developer": "deweloper",
     "aboutMe": {
       "heading": "Kilka słów o mnie",
       "firstParagraph": "<0>Jestem </0><1>front-end\n<2>deweloperem<1>*</1></2></1><2>\n<0>*</0>a raczej chciałbym nim zostać.</2>",
