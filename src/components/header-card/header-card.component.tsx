@@ -4,7 +4,7 @@ import MailIcon from "@/assets/mail.svg?react";
 import GithubIcon from "@/assets/github.svg?react";
 
 export function HeaderCard() {
-  const { t } = useTranslation(["headerCard"]);
+  const { t } = useTranslation(["headerCard", "translation"]);
 
   return (
     <Card className="items-center bg-white relative w-full md:max-w-72 lg:max-w-80 p-4 md:p-8 rounded-2xl overflow-hidden h-fit">
@@ -24,7 +24,7 @@ export function HeaderCard() {
         <h1 className="text-black font-bold leading-[1.1] text-3xl min-[448]:text-5xl lg:text-4xl flex flex-col-reverse whitespace-nowrap">
           <span className="[letter-spacing:-0.04em]">Kacper Karpień</span>
           <span className="text-xs font-bold text-dark-gray">
-            Front-end {t("developer", { ns: undefined })}
+            Front-end {t("translation:developer")}
           </span>
         </h1>
       </CardHeader>
