@@ -48,6 +48,16 @@
       "month_other": "{{count}} months",
       "day_one": "{{count}} day",
       "day_many": "{{count}} days"
+    },
+    "projects": {
+      "Project name": "Project name",
+      "Work in progress": "Work in progress",
+      "Features": "Features",
+      "Users can": "Users can",
+      "Technologies used": "Technologies used",
+      "Go to repository": "Go to repository",
+      "Go to project": "Go to project",
+      "Go to backend repository": "Go to backend repository"
     }
   },
   "pl": {
@@ -102,6 +112,16 @@
       "day_few": "{{count}} dni",
       "day_one": "{{count}} dzień",
       "day_many": "{{count}} dni"
+    },
+    "projects": {
+      "Project name": "Nazwa projektu",
+      "Work in progress": "Prace w toku",
+      "Features": "Dostępne funkcje",
+      "Users can": "Użytkownicy mogą",
+      "Technologies used": "Użyte technologię",
+      "Go to repository": "Przejdź do repozytorium",
+      "Go to project": "Przejdź do strony projektu",
+      "Go to backend repository": "Przejdź do repozytorium backendu"
     }
   }
 }
