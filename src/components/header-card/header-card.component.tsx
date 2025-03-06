@@ -30,6 +30,16 @@ export function HeaderCard() {
       </CardHeader>
       <CardDescription className="text-lg font-medium text-dark-gray leading-[1.1] max-w-64">
         <p className="mb-2 text-center md:text-left">{t("description")}</p>
+        <h2 className="text-xl text-neutral-900 mt-4">{t("Where?")}</h2>
+        <p className="text-base font-normal text-neutral-900">
+          {t("Cities that interest me are")}:
+        </p>
+        <ul className="list-disc pl-7 text-base text-neutral-900">
+          <li>{t("translation:Cracow")}</li>
+          <li>Bochnia</li>
+          <li>Tarnów</li>
+          <li>{t("Or other city near Brzesko, my home city.")}</li>
+        </ul>
       </CardDescription>
       <CardFooter className="relative z-10 p-0">
         <ul className="flex gap-1 text-background">

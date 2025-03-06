@@ -1,7 +1,8 @@
 {
   "en": {
     "translation": {
-      "developer": "developer"
+      "developer": "developer",
+      "Cracow": "Cracow"
     },
     "navigation": {
       "home": {
@@ -27,7 +28,10 @@
     "headerCard": {
       "github": "Go to my github",
       "mail": "Contact me",
-      "description": "I am just chill guy that would like to find his first job as a front-end developer."
+      "description": "I am just chill guy that would like to find his first job as a front-end developer.",
+      "Where?": "Where?",
+      "Cities that interest me are": "Cities that interest me are",
+      "Or other city near Brzesko, my home city.": "Or other city near Brzesko, my home city."
     },
     "aboutMe": {
       "heading": "About me",
@@ -48,7 +52,8 @@
   },
   "pl": {
     "translation": {
-      "developer": "deweloper"
+      "developer": "deweloper",
+      "Cracow": "Kraków"
     },
     "navigation": {
       "home": {
@@ -74,7 +79,10 @@
     "headerCard": {
       "github": "Przejdź do mojego github-a",
       "mail": "Napisz do mnie",
-      "description": "Jestem zwykłym gościem, który chciałby znaleźć swoją pierwszą pracę jako front-end deweloper."
+      "description": "Jestem zwykłym gościem, który chciałby znaleźć swoją pierwszą pracę jako front-end deweloper.",
+      "Where?": "Gdzie szukam pracy?",
+      "Cities that interest me are": "Miasta, które mnie interesują to",
+      "Or other city near Brzesko, my home city.": "Lub inne miasta w pobliżu Brzeska, mojego rodzinnego miasta."
     },
     "aboutMe": {
       "heading": "Kilka słów o mnie",
