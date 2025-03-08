@@ -57,7 +57,97 @@
       "Technologies used": "Technologies used",
       "Go to repository": "Go to repository",
       "Go to project": "Go to project",
-      "Go to backend repository": "Go to backend repository"
+      "Go to backend repository": "Go to backend repository",
+      "Projects": "Projects",
+      "See all my projects on github": "See all my projects on github",
+      "Chat app": {
+        "description": "As name sugests its a chat app but its not so simple as some tutorial project, its more of a discord clone as i tried to copy the best, of course its not as good and polished as i am still a newbie but there are few features. Its still not finished, some features need more polishing but it is usable.",
+        "features": [
+          "Create servers and channels",
+          "Send friend requests",
+          "Invite users to servers or send them invite link",
+          "Talk with others in voice channels or send voice clips with messages",
+          "Attach files to messages",
+          "Send direct messages and call users directly",
+          "Pin messages in channels",
+          "Reply to messages",
+          "Use markdown in messages",
+          "React to messages with unicode and custom emojis",
+          "Create custom emojis in servers",
+          "Send emojis directly by typing or with emoji picker",
+          "Send gifs from tenor with gif picker",
+          "Send links in messages to gifs, images, videos or websites that will be transformed into elements",
+          "Punish(kick/ban) members of the server",
+          "Have different profile on every server they belong to",
+          "Block users",
+          "Mention other users or roles in messages (work in progress)",
+          "Create Polls (work in progress)",
+          "Manage servers and channels (work in progress)",
+          "Create roles and assign them to members (work in progress)",
+          "Create groups (work in progress)"
+        ]
+      },
+      "Shoppingify": {
+        "description": "Application allows users to create, edit, share or delete shopping lists. Users can also view statistics that are gathered from their shopping lists.",
+        "features": [
+          "Create products",
+          "View old shopping lists",
+          "Manage their shopping lists",
+          "Share them with other users",
+          "View statistic of things they bought"
+        ]
+      },
+      "stxbp1.pl": {
+        "description": "Project pro publico bono for foundation that was created by families with children affected by mutation in stxbp1 gene. Project was built in wordpress."
+      },
+      "adlegion.pl": {
+        "description": "Project created for A&D Legion in wordpress."
+      },
+      "jslkeeper.dk": {
+        "description": "Project created by me on wordpress/woocommerce for client from Denmark. I created one more project for this client but its no longer online."
+      },
+      "drenaz-malopolska.pl": {
+        "description": "Simple project created for my friend long time ago"
+      },
+      "Sefaris": {
+        "description": "If you know what axios is you know what this library is doing. Its just http client library, sadly working only in browser. I could also make it work in node.js, it should not be that hard and it is on my list but i have little time for my projects so i wrote it that way back then as i was also less knowledgable",
+        "features": [
+          "Requests data over http",
+          "Choose between xhr or fetch adapter",
+          "Transform body of request to FormData or from FormData",
+          "Track progress of upload with xhr adapter",
+          "Transform response body to specified form",
+          "Use cookies and headers of response/request with ease",
+          "Create your own adapters",
+          "Configure how FormData is created",
+          "Generate DOM if response can be transformed to DOM by DOMParser",
+          "Create interceptors for request/response"
+        ]
+      },
+      "EasyArray": {
+        "description": "With it you can handle arrays with ease, it was kind of based on what lodash offers",
+        "features": [
+          "Zip and unzip arrays",
+          "Do deep compare of two arrays",
+          "Replace or deep replace items in array",
+          "Get differences of two arrays",
+          "Check if item exists in array at any depth",
+          "Find index of item at any depth",
+          "and more"
+        ]
+      },
+      "EasyDOM": {
+        "description": "Based on jQuery, of course is not that good but gives user many features.",
+        "features": [
+          "Traverse and manipulate DOM with ease",
+          "Manage event listeners",
+          "Copy/paste text",
+          "Serialize form data to json"
+        ]
+      },
+      "TxetEngine": {
+        "description": "Its a project that I plan to create, it will be advanced game engine allowing users to create text-based games. I always wanted to create my own javascript framework or game engine, I even created html tokenizer that I planned to extend and use it in my framework but I soon after that understood that its not something that i can do. Sadly, 3d or even 2d game engine is also not something I can create, this is why i decided to create text-based game engine as my next project. Of course it will also be enormous project but I think it is something that I can handle, even more if you will hire me and I will be able to grow further. :)"
+      }
     }
   },
   "pl": {
@@ -121,7 +211,96 @@
       "Technologies used": "Użyte technologię",
       "Go to repository": "Przejdź do repozytorium",
       "Go to project": "Przejdź do strony projektu",
-      "Go to backend repository": "Przejdź do repozytorium backendu"
+      "Go to backend repository": "Przejdź do repozytorium backendu",
+      "Projects": "Projekty",
+      "See all my projects on github": "Zobacz wszystkie projekty",
+      "Chat app": {
+        "description": "Jak sama nazwa wskazuje, to aplikacja czatu, ale nie jest tak prosta jak jakiś projekt z tutorialu. To bardziej klon Discorda, ponieważ chciałem wzorować się na najlepszych. Oczywiście nie jest tak dopracowana i potężna bo wciąż jestem początkujący ale ma kilka ciekawych funkcji. Nadal nie jest skończona – niektóre funkcje wymagają dopracowania, ale aplikacja jest już w stanie nadającym się do użytku.",
+        "features": [
+          "Tworzyć serwery i kanały",
+          "Wysyłać zaproszenia do znajomych",
+          "Zapraszać użytkowników na serwery lub wysłać im link do zaproszenia",
+          "Rozmawiać z innymi lub wysyłać klipy głosowe w wiadomościach",
+          "Załączać pliki do wiadomości",
+          "Wysyłać wiadomości prywatne i dzwonić bezpośrednio do użytkowników",
+          "Przypinać wiadomości w kanałach",
+          "Odpowiadać na wiadomości",
+          "Używać Markdown-u w wiadomościach",
+          "Reagować na wiadomości przy użyciu standardowych lub serwerowych emotikonów",
+          "Tworzyć serwerowe emotikony",
+          "Wysyłać emotikony bezprośrednio w wiadomości lub poprzez selektor emotikonów",
+          "Wysyłać GIF-y z Tenora za pomocą selektora gif-ów",
+          "Wysyłać linki w wiadomościach do obrazów, filmów lub stron, które zostaną przekształcone w osadzone elementy",
+          "Karać (wyrzucać/banować) członków serwera",
+          "Posiadać inne profile na serwerach do których należą",
+          "Blokować użytkowników",
+          "Wspominać użytkowników i role w wiadomościach (prace w toku)",
+          "Tworzyć ankiety (prace w toku)",
+          "Zarządzać serwerami i kanałami (prace w toku)",
+          "Tworzyć role i przyznawać je członkom serwera (prace w toku)",
+          "Tworzyć grupy (prace w toku)"
+        ]
+      },
+      "Shoppingify": {
+        "description": "Aplikacja pozwala na tworzenie, edytowanie, usuwanie i udostępnianie list zakupów. Aplikacja wyświetla też statystki zakupowe.",
+        "features": [
+          "Tworzyć produkty",
+          "Przeglądać stare listy zakupów",
+          "Zarządzać listami zakupów",
+          "Udostępniać listy innym użytkownikom",
+          "Przeglądać statystyki dotyczące zakupionych produktów"
+        ]
+      },
+      "stxbp1.pl": {
+        "description": "Projekt pro publico bono dla fundacji, która została utworzona przez rodziny z dziećmi dotkniętymi mutacją w genie stxbp1. Projekt został stworzony przy pomocy Wordpress-a."
+      },
+      "adlegion.pl": {
+        "description": "Projekt stworzony dla A&D Legion przy pomocy Wordpress-a."
+      },
+      "jslkeeper.dk": {
+        "description": "Projekt stworzony w woocommerce dla klienta z Dani. Dla tego samego klienta stworzyłem jeszcze jeden projekt ale niestety nie jest on już dostępny online."
+      },
+      "drenaz-malopolska.pl": {
+        "description": "Prosty projekt stworzony już jakiś czas temu dla firmy Izol-Dach."
+      },
+      "Sefaris": {
+        "description": "Jeżeli wiesz czym jest Axios wiesz co robi ten projekt. Jest to klient http, niestety działa tylko w przeglądarce. Dodanie obsługi dla Node.js nie powinno być bardzo trudne i chciałbym to zrobić, niestety zaczynając projekt wiedziałem znacznie mniej i ograniczyłem się jedynie do przeglądarki. Niestety obecnie mam niewiele czasu na moje projekty dlatego jeszcze się za to nie zabrałem",
+        "features": [
+          "Wykonywać żądania po http",
+          "Wybrać pomiędzy adapterem xhr lub fetch",
+          "Przekonwertować obiekt do FormData lub FormData do obiektu",
+          "Śledzić postęp żądania",
+          "Przekonwertować ciało odpowiedzi w zależności od przekazanych opcji lub nagłówka odpowiedzi",
+          "Korzystać z ciasteczek i nagłówków z łatwością",
+          "Tworzyć swoje własne adaptery",
+          "Skonfigurować w jaki sposób FormData jest tworzone",
+          "Wygenerować DOM z ciała odpowiedzi jeżeli typ ciała jest wspierany przez DOMParser",
+          "Tworzyć interceptory żądania/odpowiedzi"
+        ]
+      },
+      "EasyArray": {
+        "description": "Projekt pozwala na łatwe zarządzanie tablicami, do jego napisania zainspirował mnie Lodash. Projekt posiada wiele funkcjonalności lodash-a, które dotyczą tablic.",
+        "features": [
+          "Doknywać głębokich porównań dwóch tablic",
+          "Podmieniać elementy tablicy",
+          "Dostać różnice z dwóch tablic",
+          "Sprawdzić czy element istnieje w tablicy",
+          "Znaleźć index elementu",
+          "i wiele więcej"
+        ]
+      },
+      "EasyDOM": {
+        "description": "Do napisania tego projektu inspiracją było jQuery, oczywiście nie jest to poziom jQuery ale nadal pozwala na wiele operacji na DOM i nie tylko.",
+        "features": [
+          "Manipulować i przeszukiwać DOM z łatwością",
+          "Zarządzać w łatwy sposób zdarzeniami",
+          "Kopiować i wklejać tekst w łatwy sposób",
+          "Serializować dane formularz do formatu JSON"
+        ]
+      },
+      "TxetEngine": {
+        "description": "Projekt, który mam w planach stworzyć, będzie to zaawansowany silnik pozwalający na tworzenie gier tekstowych. Zawsze chciałem stworzyć silnik gier lub javascriptowy framework, napisałem nawet tokenizer html-a, który miał być rozbudowany i użyty w moim frameworku ale zrozumiałem, że to nie jest coś z czym dałbym sobie radę. Niestety silnik gier 2d czy 3d to też nie jest zadanie na moje siły, dlatego zdecydowałem się na napisanie silnika gier tekstowych i będzie on moim następnym projektem. Oczywiście to też będzie ogromny projekt ale myślę, że jest to coś w zasięgu mojego wzroku tym bardziej jeżeli mnie zatrudnisz i będę mógł dalej rozwijać swoje umiejętności. :)"
+      }
     }
   }
 }
