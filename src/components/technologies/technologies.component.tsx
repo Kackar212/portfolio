@@ -239,7 +239,7 @@ export function Technologies() {
   const { t } = useTranslation(["technologies"]);
 
   return (
-    <section className="flex flex-col gap-y-6 text-primary my-16">
+    <section className="flex flex-col gap-y-6 text-primary my-16" id={t("id")}>
       <header>
         <h2 className="heading font-bold">{t("Technologies")}</h2>
       </header>

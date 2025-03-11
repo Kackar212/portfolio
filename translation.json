@@ -151,7 +151,8 @@
     },
     "technologies": {
       "Technologies": "Technologies",
-      "General": "General"
+      "General": "General",
+      "id": "technologies"
     }
   },
   "pl": {
@@ -308,7 +309,8 @@
     },
     "technologies": {
       "Technologies": "Technologie",
-      "General": "Ogólne"
+      "General": "Ogólne",
+      "id": "technologie"
     }
   }
 }
