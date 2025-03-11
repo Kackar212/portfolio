@@ -1,4 +1,4 @@
-import { HTMLProps, ReactElement } from "react";
+import { HTMLProps, ReactElement, ReactNode } from "react";
 import { useTranslation } from "react-i18next";
 import * as Form from "../ui/form";
 
@@ -8,9 +8,15 @@ interface FormFieldProps {
   ) => ReactElement;
   name: string;
   label: string;
+  description?: ReactNode;
 }
 
-export function FormField({ render, name, label }: FormFieldProps) {
+export function FormField({
+  render,
+  name,
+  label,
+  description,
+}: FormFieldProps) {
   const { t } = useTranslation(["contact"]);
   const inputProps = {
     className:
@@ -27,6 +33,9 @@ export function FormField({ render, name, label }: FormFieldProps) {
             <Form.FormLabel className="px-1.5 my-1 text-sm uppercase leading-none w-[calc(100%-var(--spacing)*4)] data-[error=true]:text-primary font-bold">
               {t(label)}
             </Form.FormLabel>
+            <Form.FormDescription className="text-xs px-1.5 mb-0.5 dark:text-gray-400 text-neutral-600">
+              {description}
+            </Form.FormDescription>
             <div className="ring-primary/15 rounded-md p-2 relative w-full focus-within:ring-2 has-[[data-error=true]]:ring-destructive-foreground dark:bg-neutral-950/60 bg-soft-gray">
               <Form.FormControl>
                 {render({ ...inputProps, ...field })}
