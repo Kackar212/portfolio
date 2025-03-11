@@ -148,6 +148,10 @@
       "TxetEngine": {
         "description": "Its a project that I plan to create, it will be advanced game engine allowing users to create text-based games. I always wanted to create my own javascript framework or game engine, I even created html tokenizer that I planned to extend and use it in my framework but I soon after that understood that its not something that i can do. Sadly, 3d or even 2d game engine is also not something I can create, this is why i decided to create text-based game engine as my next project. Of course it will also be enormous project but I think it is something that I can handle, even more if you will hire me and I will be able to grow further. :)"
       }
+    },
+    "technologies": {
+      "Technologies": "Technologies",
+      "General": "General"
     }
   },
   "pl": {
@@ -301,6 +305,10 @@
       "TxetEngine": {
         "description": "Projekt, który mam w planach stworzyć, będzie to zaawansowany silnik pozwalający na tworzenie gier tekstowych. Zawsze chciałem stworzyć silnik gier lub javascriptowy framework, napisałem nawet tokenizer html-a, który miał być rozbudowany i użyty w moim frameworku ale zrozumiałem, że to nie jest coś z czym dałbym sobie radę. Niestety silnik gier 2d czy 3d to też nie jest zadanie na moje siły, dlatego zdecydowałem się na napisanie silnika gier tekstowych i będzie on moim następnym projektem. Oczywiście to też będzie ogromny projekt ale myślę, że jest to coś w zasięgu mojego wzroku tym bardziej jeżeli mnie zatrudnisz i będę mógł dalej rozwijać swoje umiejętności. :)"
       }
+    },
+    "technologies": {
+      "Technologies": "Technologie",
+      "General": "Ogólne"
     }
   }
 }
