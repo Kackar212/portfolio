@@ -153,6 +153,21 @@
       "Technologies": "Technologies",
       "General": "General",
       "id": "technologies"
+    },
+    "contact": {
+      "messageDescription_one": "You can enter up to {{count}} character",
+      "messageDescription_other": "You can enter up to {{count}} characters",
+      "remainingCharacters_one": "You have {{count}} character remaining",
+      "remainingCharacters_other": "You have {{count}} characters remaining",
+      "tooManyCharacters_one": "You have {{count}} character too many",
+      "tooManyCharacters_other": "You have {{count}} characters too many"
+    },
+    "errors": {
+      "minLength_one": "must be at least {{count}} character long",
+      "minLength_other": "must be at least {{count}} characters long",
+      "maxLength_one": "cannot be longer than {{count}} character",
+      "maxLength_other": "cannot be longer than {{count}} characters",
+      "email": "Enter valid email!"
     }
   },
   "pl": {
@@ -311,6 +326,35 @@
       "Technologies": "Technologie",
       "General": "Ogólne",
       "id": "technologie"
+    },
+    "contact": {
+      "heading": "<0>Napisz</0> do mnie",
+      "Subject": "Temat wiadomości",
+      "Email": "Email",
+      "Message": "Wiadomość",
+      "Wait, your email is being sent.": "Poczekaj, twoja wiadomość jest wysyłana.",
+      "Email can't be sent for now, try again later or message me directly!": "Wiadomość nie może zostać wysłana, spróbuj później lub napisz do mnie bezpośrednio.",
+      "Email has been sent! I will reply to it soon.": "Twoja wiadomość została wysłana! Odpowiem na nią najszybciej jak to możliwe.",
+      "Valid email should look like this - email@example.com": "Poprawny adres email powinien wyglądać tak - przykladowy@email.com",
+      "Send": "Wyślij",
+      "messageDescription_one": "Możesz wprowadzić {{count}} znak",
+      "messageDescription_few": "Możesz wprowadzić {{count}} znaki",
+      "messageDescription_many": "Możesz wprowadzić {{count}} znaków",
+      "remainingCharacters_one": "Pozostał Ci {{count}} znak",
+      "remainingCharacters_few": "Pozostały Ci {{count}} znaki",
+      "remainingCharacters_many": "Pozostało Ci {{count}} znaków",
+      "tooManyCharacters_one": "Przekroczyłeś/aś limit o {{count}} znak",
+      "tooManyCharacters_few": "Przekroczyłeś/aś limit o {{count}} znaki",
+      "tooManyCharacters_many": "Przekroczyłeś/aś limit o {{count}} znaków."
+    },
+    "errors": {
+      "minLength_one": "musi zawierać minimum {{count}} znak",
+      "minLength_few": "musi zawierać minimum {{count}} znaki",
+      "minLength_many": "musi zawierać minimum {{count}} znaków",
+      "maxLength_one": "nie może zawierać więcej niż {{count}} znak",
+      "maxLength_few": "nie może zawierać więcej niż {{count}} znaki",
+      "maxLength_many": "nie może zawierać więcej niż {{count}} znaków",
+      "email": "Wprowadź poprawny adres email!"
     }
   }
 }
