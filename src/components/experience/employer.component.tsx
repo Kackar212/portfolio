@@ -45,7 +45,7 @@ export function Employer({
       ? "current"
       : formatDate(end).replace(/\./g, "/");
 
-  const avatarFallback = name
+  const avatarFallback = t(name)
     .replace(/'s /g, " ")
     .replace(/\w+/g, (match) => match[0])
     .replace(/\s/g, "");
@@ -71,7 +71,7 @@ export function Employer({
           </AvatarFallback>
         </Avatar>
         <div className="flex flex-col text-accent-foreground">
-          <p className="z-20">{name}</p>
+          <p className="z-20">{t(name)}</p>
           <span className="inline-flex flex-col sm:flex-row whitespace-pre text-dark-gray dark:text-gray">
             <span>
               <time dateTime={start.toISOString()}>{startDate}</time> -{" "}

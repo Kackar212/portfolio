@@ -221,7 +221,8 @@
       "month_many": "{{count}} miesięcy",
       "day_few": "{{count}} dni",
       "day_one": "{{count}} dzień",
-      "day_many": "{{count}} dni"
+      "day_many": "{{count}} dni",
+      "Self-employed": "Samozatrudniony"
     },
     "projects": {
       "Project name": "Nazwa projektu",
