@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Card, CardDescription, CardFooter, CardHeader } from "../ui/card";
 import MailIcon from "@/assets/mail.svg?react";
 import GithubIcon from "@/assets/github.svg?react";
+import CvIcon from "@/assets/cv.svg?react";
 
 export function HeaderCard() {
   const { t } = useTranslation(["headerCard", "translation"]);
@@ -60,6 +61,16 @@ export function HeaderCard() {
             >
               <MailIcon aria-hidden className="size-5" />
               <span className="sr-only">{t("mail")}</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="/kacper-karpien-cv.pdf"
+              className="hover:bg-gray-400/25 p-1 text-orange w-7 flex rounded-sm"
+              target="_blank"
+            >
+              <CvIcon aria-hidden className="size-5" />
+              <span className="sr-only">CV</span>
             </a>
           </li>
         </ul>
