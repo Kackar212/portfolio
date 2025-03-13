@@ -2,6 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Badge } from "../ui/badge";
 import { useTranslation } from "react-i18next";
 import { cn } from "@/utils";
+import { CSSProperties } from "react";
 
 export interface EmployerProps {
   logo?: string;
@@ -92,12 +93,13 @@ export function Employer({
             <Badge
               key={name}
               className={cn(
-                "flex bg-white text-black border border-gray-600/15 items-center p-1 text-xs leading-none before:size-2 before:inline-block before:rounded-[50%]",
-                color === "blue" && "before:bg-blue-500",
-                color === "red" && "before:bg-red-500",
-                color === "yellow" && "before:bg-yellow-500",
-                color === "green" && "before:bg-green-500"
+                "flex bg-white text-black border border-gray-600/15 items-center p-1 text-xs leading-none before:size-2 before:inline-block before:rounded-[50%] before:bg-[var(--background)]"
               )}
+              style={
+                {
+                  "--background": color,
+                } as CSSProperties
+              }
             >
               {name}
             </Badge>
