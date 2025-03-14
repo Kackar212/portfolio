@@ -80,6 +80,11 @@ const technologies: Array<{
         Logo: "jquery.svg",
         color: "oklch(0.56 0.24 261.03)",
       },
+      {
+        name: "Storybook",
+        Logo: "storybook.svg",
+        color: "oklch(0.68 0.26 348.05)",
+      },
     ],
   },
   {
