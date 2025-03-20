@@ -223,7 +223,7 @@ export function Contact() {
           </div>
           <Button
             type="submit"
-            className="flex font-bold self-end uppercase text-base items-center w-fit border border-orange leading-tight has-[>svg]:px-6 py-1.5 gap-1.5 transition-colors my-1 hover:bg-orange hover:text-neutral-900 rounded-sm cursor-pointer"
+            className="flex font-bold self-end uppercase text-base items-center w-fit border-2 border-orange leading-tight has-[>svg]:px-6 py-1.5 gap-1.5 transition-colors my-1 hover:bg-orange hover:text-neutral-900 rounded-sm cursor-pointer"
             variant="outline"
           >
             <span className="leading-7 pt-[1.5px]">{t("Send")}</span>

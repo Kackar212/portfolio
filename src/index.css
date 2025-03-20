@@ -23,7 +23,7 @@
   --destructive-foreground: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --ring: oklch(0 0 0);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -39,9 +39,9 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
   --navigation-background: rgba(245, 245, 245, 1);
-  --orange: rgb(244, 108, 56);
+  --orange: rgb(157 52 11);
   --gray: rgb(153, 143, 143);
-  --dark-gray: rgb(95, 100, 105);
+  --dark-gray: rgb(93 86 88);
   --soft-gray: rgb(182, 180, 189, 0.2);
 }
 
@@ -73,7 +73,7 @@ body,
   --destructive-foreground: oklch(0.637 0.237 25.331);
   --border: oklch(0.269 0 0);
   --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
+  --ring: oklch(1 0 0);
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
@@ -88,9 +88,9 @@ body,
   --sidebar-border: oklch(0.269 0 0);
   --sidebar-ring: oklch(0.439 0 0);
   --navigation-background: rgb(43, 40, 40);
-  --orange: rgb(244, 108, 56);
-  --gray: rgb(153, 143, 143);
-  --dark-gray: rgb(95, 100, 105);
+  --orange: rgb(246 127 81);
+  --gray: rgb(168 159 159);
+  --dark-gray: rgb(93 86 88);
   --soft-gray: rgb(182, 180, 189, 0.2);
 }
 
@@ -145,7 +145,7 @@ body,
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border outline-ring;
   }
   body {
     @apply bg-background text-foreground;

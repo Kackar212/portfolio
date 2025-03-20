@@ -20,7 +20,7 @@ export function FormField({
   const { t } = useTranslation(["contact"]);
   const inputProps = {
     className:
-      "text-primary border-0 focus-visible:ring-0 p-0 h-[19px] text-sm resize-none px-1.5 font-light break-words shadow-none",
+      "text-primary h-[19px] rounded-none text-sm resize-none px-1.5 font-light break-words p-2 box-content font-medium",
     name,
   };
 
@@ -33,10 +33,10 @@ export function FormField({
             <Form.FormLabel className="px-1.5 my-1 text-sm uppercase leading-none w-[calc(100%-var(--spacing)*4)] data-[error=true]:text-primary font-bold">
               {t(label)}
             </Form.FormLabel>
-            <Form.FormDescription className="text-xs px-1.5 mb-0.5 dark:text-gray-400 text-neutral-600">
+            <Form.FormDescription className="text-sm px-1.5 mb-0.5 dark:text-gray-400 text-neutral-600">
               {description}
             </Form.FormDescription>
-            <div className="ring-primary/15 rounded-md p-2 relative w-full focus-within:ring-2 has-[[data-error=true]]:ring-destructive-foreground dark:bg-neutral-950/60 bg-soft-gray">
+            <div className="relative w-full dark:bg-neutral-950/60 flex border border-ring">
               <Form.FormControl>
                 {render({ ...inputProps, ...field })}
               </Form.FormControl>

@@ -7,13 +7,13 @@ export function AboutMe() {
   return (
     <section className="flex flex-col grow">
       <h2 className="mb-2 mt-4 md:mt-0">
-        <span className="text-xs font-bold text-orange ml-[0.12rem] min-[390px]:ml-1">
+        <span className="text-sm font-bold text-orange ml-[0.12rem] min-[390px]:ml-1">
           {t("heading")}
         </span>
       </h2>
       <p className="dark:text-gray text-lg leading-[1.4] text-dark-gray whitespace-pre-wrap font-bold">
         <Trans t={t} i18nKey="firstParagraph">
-          <span className="text-primary inline-block w-full text-xs text-left relative ml-[0.12rem] min-[390px]:ml-1 top-1 font-medium">
+          <span className="text-primary inline-block w-full text-sm text-left relative ml-[0.12rem] min-[390px]:ml-1 top-1 font-medium">
             I am{" "}
           </span>
           <span className="heading">
@@ -22,7 +22,7 @@ export function AboutMe() {
               developer<span aria-hidden>*</span>
             </span>
           </span>
-          <span className="lowercase text-xs font-bold text-orange ml-1 mb-4 w-full">
+          <span className="lowercase text-sm font-bold text-orange ml-1 mb-4 w-full">
             <span aria-hidden>{"\n"}*</span> in the making.
           </span>
         </Trans>
