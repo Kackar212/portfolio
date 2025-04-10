@@ -73,7 +73,7 @@ export function Project({
         <div className="uppercase flex flex-col text-base mt-3 font-bold text-primary">
           <a
             href={url}
-            className="flex items-center w-fit border-2 border-orange leading-tight p-2.5 py-1.5 gap-1.5 transition-colors my-1 hover:bg-orange hover:text-neutral-900 rounded-sm"
+            className="flex items-center w-fit border-2 border-orange leading-tight p-2.5 py-1.5 gap-1.5 transition-colors my-1 hover:bg-orange hover:text-secondary dark:hover:text-neutral-900 rounded-sm"
           >
             {hasRepository && <GithubIcon />}
             {t(hasRepository ? "Go to repository" : "Go to project")}
@@ -82,7 +82,7 @@ export function Project({
           {backendUrl && (
             <a
               href={backendUrl}
-              className="flex items-center w-fit border-2 border-orange leading-tight p-2.5 py-1.5 gap-1.5 transition-colors my-1 hover:bg-orange hover:text-neutral-900 rounded-sm"
+              className="flex items-center w-fit border-2 border-orange leading-tight p-2.5 py-1.5 gap-1.5 transition-colors my-1 hover:bg-orange hover:text-secondary dark:hover:text-neutral-900 rounded-sm"
             >
               <GithubIcon />
               {t("Go to backend repository")}
@@ -91,7 +91,7 @@ export function Project({
           {liveUrl && (
             <a
               href={liveUrl}
-              className="flex items-center w-fit border-2 border-orange leading-tight p-2.5 py-1.5 gap-1.5 transition-colors my-1 hover:bg-orange hover:text-neutral-900 rounded-sm"
+              className="flex items-center w-fit border-2 border-orange leading-tight p-2.5 py-1.5 gap-1.5 transition-colors my-1 hover:bg-orange hover:text-secondary dark:hover:text-neutral-900 rounded-sm"
             >
               {t("Go to project")}
               <ArrowIcon />
