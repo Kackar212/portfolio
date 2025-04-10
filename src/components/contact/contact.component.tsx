@@ -137,7 +137,10 @@ export function Contact() {
   );
 
   return (
-    <section className="font-bold text-primary my-12 w-full">
+    <section
+      className="font-bold text-primary my-12 w-full"
+      id={t("contact.href", { ns: "navigation" })}
+    >
       <h2 className="heading max-w-xl mx-auto mb-6">
         <Trans i18nKey="contact:heading">
           <span className="text-orange">Contact</span> me

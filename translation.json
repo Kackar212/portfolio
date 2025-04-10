@@ -151,8 +151,7 @@
     },
     "technologies": {
       "Technologies": "Technologies",
-      "General": "General",
-      "id": "technologies"
+      "General": "General"
     },
     "contact": {
       "messageDescription_one": "You can enter up to {{count}} character",
